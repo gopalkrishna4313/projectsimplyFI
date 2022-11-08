@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #333;
+}
+
+.rotate{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 120px !important;
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    background-color: transparent;
+    border: 30px solid;
+    border-color: tomato #ffec99 #4dabf7 #ffe066;
+    transform: rotate(45deg);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.rotate .text{
+    transform: rotate(-45deg);
+    text-align: center;
+}
+
+.text h1{
+    font-size: 30px;
+    color: #fff;
+}
+
+.text p{
+    color: #fff;
+}
